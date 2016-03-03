@@ -1,0 +1,57 @@
+<NewsList>
+
+    <SingleNews>
+
+        <ID>
+1
+        </ID>
+
+        <Title>
+News 1
+        </Title>
+
+        <Author>
+Author 1
+        </Author>
+
+        <Time>
+2014-06-09 16:31:01
+        </Time>
+
+        <Intro>
+Don't forget the meeting!
+        </Intro>
+
+        <Site>
+http://www.baidu.com
+        </Site>
+    </SingleNews>
+
+    <SingleNews>
+
+        <ID>
+2
+        </ID>
+
+        <Title>
+George
+        </Title>
+
+        <Author>
+John
+        </Author>
+
+        <Time>
+2014-06-09 16:40:01
+        </Time>
+
+        <Intro>
+Don't forget the meeting!
+        </Intro>
+
+        <Site>
+http://10.184.58.75/janr/ViewNews.php?id=1
+        </Site>
+    </SingleNews>
+
+</NewsList>

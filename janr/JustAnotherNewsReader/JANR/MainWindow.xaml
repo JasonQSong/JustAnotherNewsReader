@@ -1,0 +1,109 @@
+﻿<Window x:Class="JANR.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Just Another News Reader 简易新闻发布系统" Height="350" Width="525" WindowStartupLocation="Manual" WindowState="Maximized" AllowDrop="True" Drop="Window_Drop_1" Loaded="Window_Loaded_1">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center">
+                <TextBlock Text="设备:" />
+                <ComboBox x:Name="ComboBoxPresetDevice" SelectedIndex="-1" Width="150" SelectionChanged="ComboBoxPresetDevice_SelectionChanged" >
+                </ComboBox>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+                <TextBlock Text="屏幕分辨率:" />
+                <TextBox x:Name="TextBoxDeviceSize" Width="60"  LostFocus="TextBoxDevice_LostFocus"/>
+                <TextBlock Text="屏幕缩放比例:" />
+                <TextBox x:Name="TextBoxDevicePixelRatio" Width="60" LostFocus="TextBoxDevice_LostFocus"/>
+                <TextBlock Text="内容边界:" />
+                <TextBox x:Name="TextBoxDeviceMargin" Width="60"  LostFocus="TextBoxDevice_LostFocus"/>
+            </StackPanel>
+            <StackPanel x:Name="PanelAdmin" Grid.Column="3" Orientation="Horizontal" VerticalAlignment="Center">
+                <Button x:Name="ButtonAdminUsers" Content="用户管理" Click="ButtonAdminUsers_Click" />
+                <Button x:Name="ButtonAdminCatagories" Content="分类管理" Click="ButtonAdminCatagories_Click" />
+                <Button x:Name="ButtonAdminNews" Content="新闻管理" Click="ButtonAdminNews_Click" />
+            </StackPanel>
+            <StackPanel x:Name="PanelBeforeLogin" Grid.Column="4" Orientation="Horizontal" VerticalAlignment="Center">
+                <TextBlock Text="用户名:" />
+                <TextBox x:Name="TextBoxUserName" Text="Admin" Width="60"/>
+                <TextBlock Text="密码:" />
+                <TextBox x:Name="TextBoxPassword" Text="admin" Width="60"/>
+                <Button x:Name="ButtonLogin" Content="登录" Click="ButtonLogin_Click" />
+            </StackPanel>
+            <StackPanel x:Name="PanelAfterLogin" Visibility="Collapsed" Grid.Column="4" Orientation="Horizontal" VerticalAlignment="Center">
+                <TextBlock Text="Welcome, " />
+                <TextBlock x:Name="TextBlockUserName" Text="" />
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="新闻预览界面" FontSize="28" Grid.Row="1" TextAlignment="Center"/>
+                <Border x:Name="BorderWebBrowserDevice" Grid.Row="2" Height="568" Width="320" Background="Black" >
+                <WebBrowser x:Name="WebBrowserDevice"  LoadCompleted="WebBrowserDevice_LoadCompleted" Navigating="WebBrowserDevice_Navigating" />
+                    </Border>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="新闻编辑界面" FontSize="28" Grid.Row="1" TextAlignment="Center"/>
+                <Border x:Name="BorderEditorDevice" Grid.Row="2" Height="{Binding ElementName=BorderWebBrowserDevice,Path=Height}" Width="{Binding ElementName=BorderWebBrowserDevice,Path=Width}" Background="{Binding ElementName=BorderWebBrowserDevice,Path=Background}" >
+                    <TextBox x:Name="EditorDevice" FontSize="16" AcceptsReturn="True" TextWrapping="Wrap" Margin="{Binding ElementName=WebBrowserDevice,Path=Margin}" TextChanged="EditorDevice_TextChanged"/>
+                </Border>
+            </Grid>
+            <Grid Grid.Column="3">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.RowSpan="2">
+                    <StackPanel Margin="10">
+                    <TextBlock Text="新闻来源:"/>
+                    <TextBox x:Name="TextBoxNewsSourceUrl"/>
+                        <Button x:Name="ButtonFetchSource" Content="分析" Click="ButtonFetchSource_Click"/>
+                    </StackPanel>
+                    <StackPanel Margin="10">
+                    <TextBlock Text="新闻标题:"/>
+                    <TextBox x:Name="TextBoxNewsTitle"/>
+                    <TextBlock Text="发布时间:"/>
+                    <TextBox x:Name="TextBoxNewsOriginalTime"/>
+                    <TextBlock Text="新闻摘要:"/>
+                        <TextBox x:Name="TextBoxNewsIntro" AcceptsReturn="True" TextWrapping="Wrap"/>
+                        <TextBlock Text="新闻分类:"/>
+                        <StackPanel x:Name="StackPanelCatagory" Orientation="Horizontal"></StackPanel>
+                        <Button x:Name="ButtonSubmit" Margin="0,10,0,0" Content="提交" Click="ButtonSubmit_Click"/>
+                    </StackPanel>
+                    <Button x:Name="ButtonClearFormat" Margin="10" Content="清除正文格式" Click="ButtonClearFormat_Click" />
+                    <Button x:Name="ButtonUploadImage" Margin="10" Content="插入图片" Click="ButtonUploadImage_Click" />
+                    <TextBlock x:Name="TextBlockDescription"  TextWrapping="Wrap" Margin="10"></TextBlock>
+                </StackPanel>
+            </Grid>
+        </Grid>
+
+    </Grid>
+</Window>

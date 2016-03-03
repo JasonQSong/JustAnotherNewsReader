@@ -1,0 +1,49 @@
+c:\users\songqj\documents\visual studio 2012\Projects\JustAnotherNewsReader\JANR\bin\Debug\JANR.exe.config
+c:\users\songqj\documents\visual studio 2012\Projects\JustAnotherNewsReader\JANR\obj\Debug\JANR.csprojResolveAssemblyReference.cache
+c:\users\songqj\documents\visual studio 2012\Projects\JustAnotherNewsReader\JANR\obj\Debug\MainWindow.baml
+c:\users\songqj\documents\visual studio 2012\Projects\JustAnotherNewsReader\JANR\obj\Debug\MainWindow.g.cs
+c:\users\songqj\documents\visual studio 2012\Projects\JustAnotherNewsReader\JANR\obj\Debug\App.g.cs
+c:\users\songqj\documents\visual studio 2012\Projects\JustAnotherNewsReader\JANR\obj\Debug\JANR_MarkupCompile.cache
+c:\users\songqj\documents\visual studio 2012\Projects\JustAnotherNewsReader\JANR\obj\Debug\JANR.g.resources
+c:\users\songqj\documents\visual studio 2012\Projects\JustAnotherNewsReader\JANR\obj\Debug\JANR.Properties.Resources.resources
+c:\users\songqj\documents\visual studio 2012\Projects\JustAnotherNewsReader\JANR\obj\Debug\JANR.csproj.GenerateResource.Cache
+c:\users\songqj\documents\visual studio 2012\Projects\JustAnotherNewsReader\JANR\bin\Debug\JANR.exe
+c:\users\songqj\documents\visual studio 2012\Projects\JustAnotherNewsReader\JANR\bin\Debug\JANR.pdb
+c:\users\songqj\documents\visual studio 2012\Projects\JustAnotherNewsReader\JANR\obj\Debug\JANR.exe
+c:\users\songqj\documents\visual studio 2012\Projects\JustAnotherNewsReader\JANR\obj\Debug\JANR.pdb
+C:\wamp\www\janr\JustAnotherNewsReader\JANR\bin\Debug\images\Google Nexus S (480_800).png
+C:\wamp\www\janr\JustAnotherNewsReader\JANR\bin\Debug\NewsTemplate.html
+C:\wamp\www\janr\JustAnotherNewsReader\JANR\bin\Debug\JANR.exe.config
+C:\wamp\www\janr\JustAnotherNewsReader\JANR\bin\Debug\JANR.exe
+C:\wamp\www\janr\JustAnotherNewsReader\JANR\bin\Debug\JANR.pdb
+C:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\JANR.csproj.ResolveComReference.cache
+C:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\MainWindow.baml
+C:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\MainWindow.g.cs
+C:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\App.g.cs
+C:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\JANR_Content.g.cs
+C:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\JANR_MarkupCompile.cache
+C:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\JANR.g.resources
+C:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\JANR.Properties.Resources.resources
+C:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\JANR.csproj.GenerateResource.Cache
+C:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\JANR.exe
+C:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\JANR.pdb
+C:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\JANR.csprojResolveAssemblyReference.cache
+E:\wamp\www\janr\JustAnotherNewsReader\JANR\bin\Debug\JANR.exe.config
+E:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\JANR.csproj.ResolveComReference.cache
+E:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\JANR.exe
+E:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\JANR.pdb
+E:\wamp\www\janr\JustAnotherNewsReader\JANR\bin\Debug\images\Google Nexus S (480_800).png
+E:\wamp\www\janr\JustAnotherNewsReader\JANR\bin\Debug\NewsTemplate.html
+E:\wamp\www\janr\JustAnotherNewsReader\JANR\bin\Debug\JANR.exe
+E:\wamp\www\janr\JustAnotherNewsReader\JANR\bin\Debug\JANR.pdb
+E:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\JANR.csprojResolveAssemblyReference.cache
+E:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\MainWindow.baml
+E:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\MainWindow.g.cs
+E:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\App.g.cs
+E:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\JANR_Content.g.cs
+E:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\JANR_MarkupCompile.cache
+E:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\JANR.g.resources
+E:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\JANR.Properties.Resources.resources
+E:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\JANR.csproj.GenerateResource.Cache
+E:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\WindowWeb.baml
+E:\wamp\www\janr\JustAnotherNewsReader\JANR\obj\Debug\WindowWeb.g.cs
